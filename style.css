@@ -1,0 +1,51 @@
+. {
+  font-size:20px;
+  font-family:Arial,sans-serif;
+}
+
+/*b)h1 color+center alignment*/
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/*c)#main-title bold+underline*/#main-title{
+  font-white:bold;
+  text-decoration:underline;
+}
+  
+/*d).into-paragraph italic+line height*/
+.into-paragraph{
+  font-style: italic;
+  line-height:1.5;
+}
+  
+/*e).content-paragraph text uppercase*/
+.content-paragraph{
+  text-transform:uppercase;
+}
+/*f)First world of EVERY <p> bold*/
+p::first-world{
+  font-weight: bold;
+}
+
+/*If::first-world doesn't work in your browser,use this instead 
+p::first-letter{
+  font-weight:bold;
+}
+*/
+
+/*g)Remove underline+change color of.nav-link*/
+.nav-link{
+  color: forestgreen;
+  text-decoration:none;
+}
+
+/*h)Text shadow inside.color-box p*/
+.color-box p{
+  text-shadow:2px 2px rgba(0,0,0,0.3);
+}
+
+
+
+
